@@ -16,7 +16,8 @@ export const Config = {
   bruno_files_folder: process.env.bruno_files_folder || "bruno-files",
   bruno_projects_folder: process.env.bruno_projects_folder || "bruno-projects",
   get_workspace_list: process.env.get_workspace_list || "false",
-  export_postman_collections: process.env.export_postman_collections || "false",
+  export_postman_workspaces: process.env.export_postman_workspaces || "false",
   convert_to_bruno_import_format: process.env.convert_to_bruno_import_format || "false",
   import_to_bruno: process.env.import_to_bruno || "false",
+  skip_already_exported: process.env.skip_already_exported || "false",
 };

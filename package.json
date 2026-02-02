@@ -19,8 +19,8 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@usebruno/cli": "^2.15.1",
-    "@usebruno/converters": "^0.15.0",
+    "@usebruno/converters": "^0.16.0",
+    "@usebruno/lang": "^0.33.0",
     "axios": "^1.13.2",
     "dotenv": "^17.2.3"
   }
