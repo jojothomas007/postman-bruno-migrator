@@ -1,0 +1,27 @@
+{
+  "name": "postman-bruno-migrator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.49.0",
+    "@typescript-eslint/parser": "^8.49.0",
+    "eslint": "^9.39.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@usebruno/cli": "^2.15.1",
+    "@usebruno/converters": "^0.15.0",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3"
+  }
+}
