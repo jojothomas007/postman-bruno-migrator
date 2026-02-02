@@ -41,4 +41,16 @@ export class PostmanService {
     console.info(`GET ${requestUrl}`);
     return this.requestSender.getRequest(requestUrl, this.headers);
   }
+
+  async getEnvironment(id: string): Promise<AxiosResponse | null> {
+    const requestUrl = `${this.postmanApiUrl}/environments/${id}`;
+    console.info(`GET ${requestUrl}`);
+    return this.requestSender.getRequest(requestUrl, this.headers);
+  }
+
+  async getGlobalVariables(workspaceId: string): Promise<AxiosResponse | null> {
+    const requestUrl = `${this.postmanApiUrl}/workspaces/${workspaceId}`;
+    console.info(`GET ${requestUrl}`);
+    return this.requestSender.getRequest(requestUrl, this.headers);
+  }
 }

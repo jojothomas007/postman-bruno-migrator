@@ -11,7 +11,7 @@ async function mainMethod(): Promise<void> {
     if (Config.get_workspace_list.toLowerCase() == "true") {
         postmanExporter.fetch_workspaces();
     }
-    if (Config.export_postman_collections.toLowerCase() == "true") {
+    if (Config.export_postman_workspaces.toLowerCase() == "true") {
         postmanExporter.export();
     }
     if (Config.convert_to_bruno_import_format.toLowerCase() == "true") {
